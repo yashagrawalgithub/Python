@@ -1,0 +1,9 @@
+r=float(input('Input the radius of the circle: '))
+print('The area of the circle with radius {} is {}: '.format(r,3.14*r*r))
+name=input('Input th Filename: ')
+if(name[-2:]=='py'):
+    print("The extension of the file is : 'python'")
+elif(name[-3:]=='txt'):
+    print("The extension of the file is : 'text'")
+else:
+    pass
