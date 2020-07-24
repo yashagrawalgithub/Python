@@ -1,4 +1,3 @@
-n=int(input())
 l=[]
 l2=[]
 l=[int(i) for i in input().split()]
