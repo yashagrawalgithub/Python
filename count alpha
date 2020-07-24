@@ -1,5 +1,8 @@
 s=input("Please enter a string ").lower()
-l=list(s)
 s1=set(s)
+d={}
 for i in s1:
-    print(i,"=",l.count(i))
+    d[s.count(i)]=i
+l=sorted(d.keys(),reverse=True)
+for i in l:
+    print(d.get(i),'=',i)
